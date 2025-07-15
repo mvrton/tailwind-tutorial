@@ -1,0 +1,25 @@
+{
+  "name": "tuto-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:styles": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvrton/tailwind-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvrton/tailwind-tutorial/issues"
+  },
+  "homepage": "https://github.com/mvrton/tailwind-tutorial#readme",
+  "description": "",
+  "dependencies": {
+    "@midudev/tailwind-animations": "^0.2.0",
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

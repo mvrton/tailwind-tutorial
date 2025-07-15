@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>martin probanding</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/output.css">
 </head>
 <body class="max-w-xl mx-auto
-
 min-h-dvh
 bg-gradient-to-b from-black via-sky-950 to-gray-800">
+
     <header class="text-white flex flex-col items-center">
         <img alt="fotito mia" src="assets/yop.JPG"
-            class="h-[50vh] object-cover mask-radial-at-center mask-radial-from-40% mask-radial-to-80%">
+            class="h-[50vh] object-cover mask-radial-at-center mask-radial-from-40% mask-radial-to-80% animate-pulse-fade-in">
 
         <header class="flex flex-col justify-center items-center
         mb-8 -mt-3">
@@ -40,7 +40,7 @@ bg-gradient-to-b from-black via-sky-950 to-gray-800">
         </header>
         <section class="flex gap-2 justify-center">
         <a
-            class="p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform 
+            class="social-button animate-slide-up-fade
             bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600""
             href="https://instagram.com/mvrton" target="_blank" aria-label="Instagram" title="Ir al insta del murton">
             <svg width="28" height="28">
@@ -48,21 +48,116 @@ bg-gradient-to-b from-black via-sky-950 to-gray-800">
             </svg>
         </a>
         <a
-            class="bg-white p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            class="bg-white social-button animate-slide-up-fade"
             href="https://linkedin.com/in/martin-mp/" target="_blank" aria-label="LinkedIn" title="Ir al LinkedIn del murton">
             <svg width="28" height="28">
                 <use xlink:href="./assets/sprite.svg#linkedin"/>
             </svg>
         </a>
         <a
-            class="bg-gray-900 p-2 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            class="bg-gray-900 social-button animate-slide-up-fade"
             href="https://github.com/mvrton" target="_blank" aria-label="GitHub" title="Ir al GitHub del murton">
             <svg width="28" height="28">
                 <use xlink:href="./assets/sprite.svg#github"/>
             </svg>
         </a>
         </section>
+
+        <p class="text-primary-light text-center mt-4 text-sm px-4 text-balance">
+            Estudiante de grado superior en desarrollo de aplicaciones multiplataforma. Voy a poner a continuación algunos cursos
+            que he encontrado muy interesantes.
+        </p>
     </header>
 
+    <main class="pt-4 px-4">
+        <div class="grid grid-cols-3 grid-rows-2 gap-2 w-full">
+            <a href="https://cursoreact.dev" class="
+            text-white
+            relative rounded-3xl overflow-hidden
+            bg-gradient-to-br from-cyan-900 via-cyan-700
+            to-cyan-500
+            border border-cyan-900
+            flex flex-col items-start
+            hover:scale-105 hover:contrast-125
+            transition
+            group
+            col-span-2 p7 min-h-[180px]
+            ">
+            
+            <span class="absolute bottom-2 left-4 font-bold text-2xl
+            group-hover:-translate-y-1transition-transform">React.js</span>
+            <svg class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12
+            group-hover:scale-125 transition-transform" width="100" height="100">
+                <use xlink:href="./assets/sprite.svg#react" />
+            </svg>
+            <span class="absolute top-2 left-2 text-xs border rounded-xl px-1 py-0.5">Curso de +14 clases</span>
+            </a>
+            <a href="https://midu.link/html" class="
+          relative rounded-3xl overflow-hidden
+          bg-gradient-to-br from-html via-orange-300 to-white
+          border border-html
+          flex flex-col items-start
+          hover:scale-105 hover:contrast-125
+          transition
+          group
+          col-span-1 p-7 min-h-[180px]
+        ">
+          <span
+            class="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform">HTML</span>
+
+          <svg
+            class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+            width="100" height="100">
+            <use xlink:href="./assets/sprite.svg#html" />
+          </svg>
+
+          <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">Para principiantes</span>
+        </a>
+
+        <a href="https://midu.link/html" class="
+          relative rounded-3xl overflow-hidden
+          bg-gradient-to-br from-[#663399] via-[#8e44ad] to-white
+          border border-[#663399]
+          flex flex-col items-start
+          hover:scale-105 hover:contrast-125
+          transition
+          group
+          col-span-1 p-7 min-h-[180px]
+        ">
+          <span
+            class="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform">CSS</span>
+
+          <svg
+            class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+            width="100" height="100">
+            <use xlink:href="./assets/sprite.svg#css" />
+          </svg>
+
+          <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">Para principiantes</span>
+        </a>
+
+        <a href="https://cursoreact.dev" class="
+          relative rounded-3xl overflow-hidden
+          bg-gradient-to-br from-[#215732] via-[#3C873A] to-[#8CC84B]
+          border border-[#215732]
+          flex flex-col items-start
+          hover:scale-105 hover:contrast-125
+          transition
+          group
+          col-span-2 p-7 min-h-[180px]
+        ">
+          <span
+            class="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform">Node.js</span>
+
+          <svg
+            class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+            width="100" height="100">
+            <use xlink:href="./assets/sprite.svg#node" />
+          </svg>
+
+          <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">Curso de +14 clases</span>
+        </a>
+        </div>
+    </main>
 </body>
 </html>
